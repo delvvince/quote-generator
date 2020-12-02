@@ -52,15 +52,15 @@ function getQuotesLocally() {
 // Get Quotes from API
 async function getQuotesFromAPI() {
     showLoadingSpinner();
-    //  const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
+    const proxyUrl = 'https://arcane-island-48980.herokuapp.com/';
     const apiUrl = 'https://type.fit/api/quotes';
+    //  const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
     // const apiUrl = 'http://quotes.stormconsultancy.co.uk/random.json';
     // TRUMP'S QUOTES
     // const apiUrl = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
     // PROXY for CORS
-    // const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
     try {
-        const response = await fetch(apiUrl);
+        const response = await fetch(proxyUrl + apiUrl);
         apiQuotes = await response.json();
         // console.log(apiQuotes[12]);
         newQuote();
