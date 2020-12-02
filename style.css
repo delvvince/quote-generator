@@ -29,15 +29,15 @@ body {
 }
 
 .quote-text {
-    font-size: 2.75rem;
+    font-size: 3.8rem;
 }
 
 .long-quote { 
-    font-size: 1.75rem;
+    font-size: 3.25rem;
 }
 
 .fa-quote-left {
-    font-size: 3.75rem;
+    font-size: 3.6rem;
 }
 
 .quote-author {
@@ -84,8 +84,8 @@ button:active {
 
 /* LOADER */
 .loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #333; /* Blue */
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #333;
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -102,9 +102,11 @@ button:active {
     .quote-container {
         margin: 30px 15px;
     }
-
     .quote-text {
-        font-size: 2;
+        font-size: 2.25rem;
+    }
+    .long-quote { 
+        font-size: 1.75rem;
     }
 }
 
