@@ -22,8 +22,8 @@ function removeLoadingSpinner() {
 async function getQuoteFromAPI() {
     showLoadingSpinner();
     const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
-//  const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
-    const apiUrl = 'http://quotes.stormconsultancy.co.uk/random.json';
+//  const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
+    const apiUrl = 'https://quotes.stormconsultancy.co.uk/random.json';
     // TRUMP QUOTES
     // const apiUrl = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
     try {
