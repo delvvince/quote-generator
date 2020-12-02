@@ -49,7 +49,7 @@ async function getQuoteFromAPI() {
         //throw new Error('oops')
     } catch (error) {
         //console.log(error);
-        getQuoteFromAPI();
+        //getQuoteFromAPI();
     }
 }
 
